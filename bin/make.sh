@@ -1,6 +1,6 @@
 #!/bin/bash
 
-APPLICATION_SUPPORT="${HOME}/Library/Application Support/Code/User/"
+APPLICATION_SUPPORT="${HOME}/Library/Application Support/Code/User"
 
 function symlink() {
     echo "Symlinking $2 to $1"
