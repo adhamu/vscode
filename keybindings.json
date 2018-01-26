@@ -27,5 +27,10 @@
         "key": "alt+,",
         "command": "-gitlens.diffWithPrevious",
         "when": "editorTextFocus && gitlens:activeIsTracked && gitlens:keymap == 'standard'"
+    },
+    {
+        "key": "cmd+j",
+        "command": "-editor.action.joinLines",
+        "when": "editorTextFocus"
     }
 ]

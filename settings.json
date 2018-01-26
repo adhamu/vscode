@@ -96,4 +96,5 @@
         "html",
         "twig"
     ],
+    "php.executablePath": "/usr/local/Cellar/php70/7.0.3/bin/php",
 }
