@@ -45,6 +45,7 @@
         "input.background": "#263238",
         "sideBarSectionHeader.background": "#263238",
         "editorWidget.background": "#263238",
+        "diffEditor.insertedTextBackground": "#316F01",
     },
     "materialTheme.cache.workbench.settings": {
         "accent": "Blue",
