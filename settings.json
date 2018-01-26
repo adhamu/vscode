@@ -4,7 +4,7 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
     "editor.lineHeight": 22,
-    "editor.formatOnPaste": true,
+    "editor.formatOnPaste": false,
     "explorer.openEditors.visible": 0,
     "editor.fontFamily": "Hack",
     "editor.cursorStyle": "line",
@@ -74,4 +74,6 @@
     "diffEditor.renderSideBySide": false,
     "extensions.ignoreRecommendations": false,
     "editor.wordWrap": "on",
+    "json.format.enable": false,
+    "editor.autoIndent": false,
 }
