@@ -578,6 +578,28 @@
 			</dict>
 		</dict>
 		<dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] JSON Property Name</string>
+        <key>scope</key>
+        <string>support.type.property-name.json</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#a349f9</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] JSON Punctuation for Property Name</string>
+        <key>scope</key>
+        <string>support.type.property-name.json punctuation</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#a349f9</string>
+        </dict>
+      </dict>
+		<dict>
 			<key>name</key>
 			<string>laravel blade tag</string>
 			<key>scope</key>

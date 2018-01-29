@@ -16,7 +16,8 @@
         ".exports": "shellscript",
         ".vimrc": "shellscript",
         ".extras": "shellscript",
-        ".aliases": "shellscript"
+        ".aliases": "shellscript",
+        "*.json": "jsonc"
     },
     "workbench.colorCustomizations": {
         "activityBarBadge.background": "#2979FF",
