@@ -9,7 +9,7 @@
         "command": "-workbench.view.scm"
     },
     {
-        "key": "alt+cmd+down",
+        "key": "shift+cmd+down",
         "command": "editor.action.copyLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
     },
@@ -31,6 +31,11 @@
     {
         "key": "cmd+j",
         "command": "-editor.action.joinLines",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+cmd+down",
+        "command": "-editor.action.moveLinesDownAction",
         "when": "editorTextFocus"
     }
 ]
