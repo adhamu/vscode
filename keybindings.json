@@ -9,7 +9,7 @@
         "command": "-workbench.view.scm"
     },
     {
-        "key": "shift+cmd+down",
+        "key": "ctrl+cmd+down",
         "command": "editor.action.copyLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
     },

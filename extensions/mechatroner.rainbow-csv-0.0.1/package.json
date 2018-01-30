@@ -1,0 +1,68 @@
+{
+	"name": "rainbow-csv",
+	"displayName": "Rainbow CSV",
+	"description": "Rainbow CSV: highlight csv and tsv files in different colors",
+	"version": "0.0.1",
+	"publisher": "mechatroner",
+	"icon": "rainbow_csv_logo.png",
+	"engines": {
+		"vscode": "^1.19.0"
+	},
+	"keywords": [
+		"csv",
+		"tsv",
+		"highlight"
+	],
+	"categories": [
+		"Other",
+		"Languages"
+	],
+	"activationEvents": [
+		"onLanguage:csv",
+		"onLanguage:tsv"
+	],
+	"main": "./extension",
+	"contributes": {
+		"languages": [
+			{
+				"id": "csv",
+				"extensions": [
+					".csv"
+				]
+			},
+			{
+				"id": "tsv",
+				"extensions": [
+					".tsv"
+				]
+			}
+		],
+		"grammars": [
+			{
+				"language": "csv",
+				"scopeName": "text.csv",
+				"path": "./syntaxes/csv.tmLanguage.json"
+			},
+			{
+				"language": "tsv",
+				"scopeName": "text.tsv",
+				"path": "./syntaxes/tsv.tmLanguage.json"
+			}
+		]
+	},
+	"capabilities": {
+		"hoverProvider": "true"
+	},
+	"devDependencies": {
+		"vscode": "^1.1.6"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mechatroner/vscode_rainbow_csv.git"
+	},
+	"__metadata": {
+		"id": "3792588c-3d35-442d-91ea-fe6a755e8155",
+		"publisherId": "0d5438b6-325a-4f88-aa28-6192aa2cf2a6",
+		"publisherDisplayName": "mechatroner"
+	}
+}
