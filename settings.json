@@ -72,7 +72,7 @@
     "gitlens.blame.line.enabled": false,
     "gitlens.codeLens.enabled": false,
     "files.autoSave": "onFocusChange",
-    "phpcs.standard": "psr2",
+    "php.suggest.basic": false,
     "workbench.sideBar.location": "left",
     "editor.tabCompletion": true,
     "diffEditor.renderSideBySide": false,
