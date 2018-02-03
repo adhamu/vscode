@@ -73,6 +73,7 @@
     "gitlens.codeLens.enabled": false,
     "files.autoSave": "onFocusChange",
     "php.suggest.basic": false,
+    "phpcs.standard": "PSR2",
     "workbench.sideBar.location": "left",
     "editor.tabCompletion": true,
     "diffEditor.renderSideBySide": false,
@@ -99,5 +100,5 @@
         "html",
         "twig"
     ],
-    "php.executablePath": "/usr/local/Cellar/php70/7.0.3/bin/php",
+    "php.executablePath": "/usr/bin/php",
 }
