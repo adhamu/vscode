@@ -1,0 +1,84 @@
+{
+	"name": "sort-lines",
+	"displayName": "Sort lines",
+	"description": "Sorts lines of text",
+	"version": "1.4.1",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Tyriar/vscode-sort-lines/issues"
+	},
+	"scripts": {
+		"test": "mocha"
+	},
+	"homepage": "https://github.com/Tyriar/vscode-sort-lines",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Tyriar/vscode-sort-lines"
+	},
+	"publisher": "Tyriar",
+	"engines": {
+		"vscode": "0.10.x"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:sortLines.sortLines",
+		"onCommand:sortLines.sortLinesReverse",
+		"onCommand:sortLines.sortLinesCaseInsensitive",
+		"onCommand:sortLines.sortLinesLineLength",
+		"onCommand:sortLines.sortLinesLineLengthReverse",
+		"onCommand:sortLines.sortLinesUnique",
+		"onCommand:sortLines.sortLinesShuffle"
+	],
+	"main": "./lib/main",
+	"contributes": {
+		"commands": [
+			{
+				"command": "sortLines.sortLines",
+				"title": "Sort lines (ascending, case sensitive)"
+			},
+			{
+				"command": "sortLines.sortLinesCaseInsensitive",
+				"title": "Sort lines (ascending, case insensitive)"
+			},
+			{
+				"command": "sortLines.sortLinesReverse",
+				"title": "Sort lines (descending, case sensitive)"
+			},
+			{
+				"command": "sortLines.sortLinesLineLength",
+				"title": "Sort lines (line length ascending)"
+			},
+			{
+				"command": "sortLines.sortLinesLineLengthReverse",
+				"title": "Sort lines (line length descending)"
+			},
+			{
+				"command": "sortLines.sortLinesUnique",
+				"title": "Sort lines (unique ascending, case sensitive)"
+			},
+			{
+				"command": "sortLines.sortLinesShuffle",
+				"title": "Sort lines (shuffle)"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "sortLines.sortLines",
+				"key": "f9",
+				"when": "editorTextFocus"
+			}
+		]
+	},
+	"devDependencies": {
+		"vscode": "0.10.x",
+		"mocha": "~2.3.3"
+	},
+	"icon": "images/icon.png",
+	"__metadata": {
+		"id": "00518570-772b-4ccb-8b06-d056f3f556e0",
+		"publisherId": "738ff3bb-8e77-45d5-bd26-7c9ad62959b9",
+		"publisherDisplayName": "Daniel Imms"
+	}
+}

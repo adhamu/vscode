@@ -1,0 +1,59 @@
+{
+	"name": "vscode-ipaddress",
+	"displayName": "IP Address",
+	"description": "Shows IP addresses in status bar and inserts into your text",
+	"version": "1.0.0",
+	"publisher": "Compulim",
+	"engines": {
+		"vscode": "^1.11.0"
+	},
+	"icon": "icon.png",
+	"galleryBanner.color": "#0D5CAB",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/compulim/vscode-ipaddress.git"
+	},
+	"bugs": "https://github.com/compulim/vscode-ipaddress/issues/",
+	"homepage": "https://github.com/compulim/vscode-ipaddress/blob/master/README.md",
+	"keywords": [
+		"ip address",
+		"ipv4",
+		"ipv6"
+	],
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "ipAddress.insertIPAddress",
+				"title": "Insert IP Address"
+			}
+		]
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^2.0.3",
+		"vscode": "^1.0.0",
+		"mocha": "^2.3.3",
+		"eslint": "^3.6.0",
+		"@types/node": "^6.0.40",
+		"@types/mocha": "^2.2.32"
+	},
+	"dependencies": {
+		"immutable": "^3.7.6",
+		"public-ip": "^2.3.3"
+	},
+	"__metadata": {
+		"id": "d7fa9602-87f0-4adc-9c8b-25ae69fe69df",
+		"publisherId": "f9dbfd7c-f9a1-434c-9971-648ad2e23f96",
+		"publisherDisplayName": "Compulim"
+	}
+}

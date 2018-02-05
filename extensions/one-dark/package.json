@@ -1,0 +1,22 @@
+{
+    "name": "one-dark",
+    "displayName": "One Dark",
+    "description": "the theme to end all themes",
+    "version": "0.0.1",
+    "publisher": "monacotools",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "One Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/One Dark-color-theme.json"
+            }
+        ]
+    }
+}
