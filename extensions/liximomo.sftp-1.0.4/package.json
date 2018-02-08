@@ -1,0 +1,169 @@
+{
+	"name": "sftp",
+	"displayName": "sftp",
+	"description": "SFTP/FTP sync",
+	"version": "1.0.4",
+	"publisher": "liximomo",
+	"author": "liximomo <liximomo@gmail.com> (https://liximomo.github.io/)",
+	"engines": {
+		"vscode": "^1.17.0"
+	},
+	"bugs": {
+		"url": "https://github.com/liximomo/vscode-sftp/issues",
+		"email": "liximomo@gmail.com"
+	},
+	"homepage": "https://github.com/liximomo/vscode-sftp/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/liximomo/vscode-sftp.git"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"ftp",
+		"sftp",
+		"sync",
+		"remote"
+	],
+	"activationEvents": [
+		"onCommand:sftp.config.default",
+		"onCommand:sftp.trans.remote",
+		"onCommand:sftp.trans.local",
+		"onCommand:sftp.sync.remote",
+		"onCommand:sftp.sync.local",
+		"onCommand:sftp.list.default",
+		"onCommand:sftp.list.all",
+		"workspaceContains:.vscode/sftp.json"
+	],
+	"icon": "icon.png",
+	"main": "./out/src/extension",
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "sftp configuration",
+			"properties": {
+				"sftp.printDebugLog": {
+					"type": "boolean",
+					"default": false,
+					"description": "print debug log on sftp output channel.(reload vscode when change this)"
+				}
+			}
+		},
+		"commands": [
+			{
+				"command": "sftp.config.default",
+				"title": "SFTP: Config"
+			},
+			{
+				"command": "sftp.list.default",
+				"title": "SFTP: List"
+			},
+			{
+				"command": "sftp.list.all",
+				"title": "SFTP: List All"
+			},
+			{
+				"command": "sftp.trans.remote",
+				"title": "SFTP: Upload"
+			},
+			{
+				"command": "sftp.trans.local",
+				"title": "SFTP: Download"
+			},
+			{
+				"command": "sftp.sync.remote",
+				"title": "SFTP: Sync To Remote"
+			},
+			{
+				"command": "sftp.sync.local",
+				"title": "SFTP: Sync To Local"
+			}
+		],
+		"menus": {
+			"explorer/context": [
+				{
+					"command": "sftp.sync.remote",
+					"group": "sftp.sync@1",
+					"when": "explorerResourceIsFolder"
+				},
+				{
+					"command": "sftp.sync.local",
+					"group": "sftp.sync@2",
+					"when": "explorerResourceIsFolder"
+				},
+				{
+					"command": "sftp.trans.remote",
+					"group": "sftp.trans@3"
+				},
+				{
+					"command": "sftp.trans.local",
+					"group": "sftp.trans@4"
+				}
+			],
+			"editor/context": [
+				{
+					"command": "sftp.trans.remote",
+					"group": "sftp.trans@1"
+				},
+				{
+					"command": "sftp.trans.local",
+					"group": "sftp.trans@2"
+				}
+			]
+		},
+		"jsonValidation": [
+			{
+				"fileMatch": ".vscode/sftp.json",
+				"url": "./schema/config.schema.json"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "tsc -p ./",
+		"compile": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test",
+		"test:spec": "jest",
+		"package": "vsce package",
+		"pub:debug": "rm -rf _debug && mkdir _debug && vsce package --out _debug/sftp-debug.vsix && cd _debug && git init && git commit --allow-empty -m 'update debug package' && git checkout -b debug-pacakge && cp ../INSTALL_DEBUG.md README.md  && git add . && git commit -am 'update debug package' && git push git@github.com:liximomo/vscode-sftp.git debug-pacakge --force",
+		"lint": "tslint --type-check --project tsconfig.json src/**/*.ts"
+	},
+	"devDependencies": {
+		"@types/mocha": "^2.2.32",
+		"@types/node": "^6.0.40",
+		"jest": "^20.0.4",
+		"mocha": "^2.3.3",
+		"tslint": "^5.4.3",
+		"typescript": "^2.0.3",
+		"vscode": "^1.1.10"
+	},
+	"dependencies": {
+		"async": "^2.6.0",
+		"fs-extra": "^3.0.1",
+		"ftp": "^0.3.10",
+		"glob": "^7.1.2",
+		"ignore": "^3.3.7",
+		"joi": "^10.6.0",
+		"ssh2": "^0.5.4",
+		"stat-mode": "^0.2.2",
+		"upath": "^1.0.0"
+	},
+	"jest": {
+		"moduleFileExtensions": [
+			"ts",
+			"js"
+		],
+		"transform": {
+			"^.+\\.ts$": "<rootDir>/test/preprocessor.js"
+		},
+		"testMatch": [
+			"**/test/*.spec.js"
+		]
+	},
+	"__metadata": {
+		"id": "ed3575fb-5812-4a43-9efb-c19649137420",
+		"publisherId": "191ff983-e777-479d-b38d-a496aa4cf49a",
+		"publisherDisplayName": "liximomo"
+	}
+}

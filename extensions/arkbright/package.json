@@ -1,0 +1,22 @@
+{
+    "name": "arkbright",
+    "displayName": "ArkBright",
+    "description": "One Dark, High Contrast, Bright",
+    "version": "0.0.1",
+    "publisher": "monacotools",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "ArkBright",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ArkBright-color-theme.json"
+            }
+        ]
+    }
+}

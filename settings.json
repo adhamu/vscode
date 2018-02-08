@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "One Dark",
     "sublimeTextKeymap.promptV3Features": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
@@ -101,4 +100,5 @@
         "twig"
     ],
     "php.executablePath": "/usr/bin/php",
+    "workbench.colorTheme": "ArkBright",
 }
