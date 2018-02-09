@@ -100,4 +100,12 @@
     "php.executablePath": "/usr/bin/php",
     "workbench.colorTheme": "ArkBright",
     "gitlens.blame.highlight.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.annotations.enabled": false,
+    "gitlens.hovers.annotations.details": false,
+    "gitlens.hovers.annotations.changes": false,
+    "gitlens.hovers.currentLine.changes": false,
+    "gitlens.hovers.currentLine.details": false,
+    "gitlens.hovers.currentLine.enabled": false,
+    "gitlens.hovers.enabled": false,
 }
