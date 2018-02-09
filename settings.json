@@ -68,11 +68,9 @@
         "suppressUpdateNotice": false,
         "suppressWelcomeNotice": true
     },
-    "gitlens.blame.line.enabled": false,
     "gitlens.codeLens.enabled": false,
     "files.autoSave": "onFocusChange",
     "php.suggest.basic": false,
-    "phpcs.standard": "PSR2",
     "workbench.sideBar.location": "left",
     "editor.tabCompletion": true,
     "diffEditor.renderSideBySide": false,
@@ -101,4 +99,5 @@
     ],
     "php.executablePath": "/usr/bin/php",
     "workbench.colorTheme": "ArkBright",
+    "gitlens.blame.highlight.enabled": false,
 }
