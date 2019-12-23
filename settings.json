@@ -1,5 +1,4 @@
 {
-    "sublimeTextKeymap.promptV3Features": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
     "editor.lineHeight": 22,
@@ -49,26 +48,9 @@
         "editorWidget.background": "#263238",
         "diffEditor.insertedTextBackground": "#316F01",
     },
-    "materialTheme.cache.workbench.settings": {
-        "accent": "Blue",
-        "accentPrevious": "Orange",
-        "themeColours": "One Dark"
-    },
     "workbench.iconTheme": "eq-material-theme-icons",
     "editor.smoothScrolling": true,
     "window.zoomLevel": 0,
-    "gitlens.advanced.messages": {
-        "suppressCommitHasNoPreviousCommitWarning": false,
-        "suppressCommitNotFoundWarning": false,
-        "suppressFileNotUnderSourceControlWarning": false,
-        "suppressGitVersionWarning": false,
-        "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": false,
-        "suppressResultsExplorerNotice": true,
-        "suppressUpdateNotice": false,
-        "suppressWelcomeNotice": true
-    },
-    "gitlens.codeLens.enabled": false,
     "files.autoSave": "onFocusChange",
     "php.suggest.basic": false,
     "workbench.sideBar.location": "left",
@@ -97,15 +79,5 @@
         "html",
         "twig"
     ],
-    "php.executablePath": "/usr/bin/php",
     "workbench.colorTheme": "ArkBright",
-    "gitlens.blame.highlight.enabled": false,
-    "gitlens.currentLine.enabled": false,
-    "gitlens.hovers.annotations.enabled": false,
-    "gitlens.hovers.annotations.details": false,
-    "gitlens.hovers.annotations.changes": false,
-    "gitlens.hovers.currentLine.changes": false,
-    "gitlens.hovers.currentLine.details": false,
-    "gitlens.hovers.currentLine.enabled": false,
-    "gitlens.hovers.enabled": false,
 }
