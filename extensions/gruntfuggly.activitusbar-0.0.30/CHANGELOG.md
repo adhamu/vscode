@@ -1,5 +1,9 @@
 # Activitus Bar Change Log
 
+## v0.0.30 - 2020-04-27
+
+- Unless overridden by configuration, use activity bar foreground theme colours
+
 ## v0.0.29 - 2020-04-27
 
 - Revert to previous version to avoid annoying editor being temporarily created

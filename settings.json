@@ -80,4 +80,7 @@
         "twig"
     ],
     "workbench.colorTheme": "ArkBright",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }

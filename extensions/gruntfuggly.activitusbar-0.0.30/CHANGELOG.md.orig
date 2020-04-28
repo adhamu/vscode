@@ -1,12 +1,16 @@
 # Activitus Bar Change Log
 
 <<<<<<< HEAD
+## v0.0.29 - 2020-04-27
+
+- Revert to previous version to avoid annoying editor being temporarily created
+
 ## v0.0.28 - 2020-04-21
 
+=======
+>>>>>>> 69c1004... Support theme colours with inactive dimmed to 50%
 - Unless overridden by configuration, use theme colours with inactive dimmed to 50%
 
-=======
->>>>>>> parent of 69c1004... Support theme colours with inactive dimmed to 50%
 ## v0.0.27 - 2020-04-15
 
 - Support alternate status bar modes, thanks to [notpushkin](https://github.com/notpushkin)

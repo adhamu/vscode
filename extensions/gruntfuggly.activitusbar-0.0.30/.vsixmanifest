@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Language="en-US" Id="activitusbar" Version="0.0.29" Publisher="Gruntfuggly"/>
+    <Identity Language="en-US" Id="activitusbar" Version="0.0.30" Publisher="Gruntfuggly"/>
     <DisplayName>Activitus Bar</DisplayName>
     <Description xml:space="preserve">Save some real estate by recreating the activity bar buttons on the status bar</Description>
     <Tags>activity bar,status bar,task,tasks,task buttons,keybindings</Tags>

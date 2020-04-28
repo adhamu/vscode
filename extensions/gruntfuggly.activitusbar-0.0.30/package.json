@@ -2,7 +2,7 @@
 	"name": "activitusbar",
 	"displayName": "Activitus Bar",
 	"description": "Save some real estate by recreating the activity bar buttons on the status bar",
-	"version": "0.0.29",
+	"version": "0.0.30",
 	"icon": "icon.png",
 	"publisher": "Gruntfuggly",
 	"license": "MIT",
@@ -93,11 +93,11 @@
 				},
 				"activitusbar.inactiveColour": {
 					"type": "string",
-					"description": "Colour of inactive icons"
+					"description": "Override colour of inactive icons"
 				},
 				"activitusbar.activeColour": {
 					"type": "string",
-					"description": "Colour of the active icon"
+					"description": "Override colour of the active icon"
 				},
 				"activitusbar.priority": {
 					"type": "integer",
