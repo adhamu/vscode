@@ -45,8 +45,7 @@
         "statusBar.foreground": "#5c7b90",
         "input.background": "#263238",
         "sideBarSectionHeader.background": "#263238",
-        "editorWidget.background": "#263238",
-        "diffEditor.insertedTextBackground": "#316F01",
+        "editorWidget.background": "#263238"
     },
     "workbench.iconTheme": "eq-material-theme-icons",
     "editor.smoothScrolling": true,
@@ -83,4 +82,9 @@
     "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "workbench.startupEditor": "newUntitledFile",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "githd.blameView.enabled": false
 }

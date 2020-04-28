@@ -19,11 +19,6 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+alt+d",
-        "command": "gitlens.diffWithPrevious",
-        "when": "editorTextFocus && gitlens:activeIsTracked && gitlens:keymap == 'standard'"
-    },
-    {
         "key": "alt+,",
         "command": "-gitlens.diffWithPrevious",
         "when": "editorTextFocus && gitlens:activeIsTracked && gitlens:keymap == 'standard'"
@@ -153,5 +148,9 @@
     {
         "key": "ctrl+9",
         "command": "-workbench.action.openEditorAtIndex9"
+    },
+    {
+        "key": "ctrl+alt+d",
+        "command": "githd.diffUncommittedFile"
     }
 ]
