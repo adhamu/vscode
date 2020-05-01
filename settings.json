@@ -86,5 +86,21 @@
     "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "githd.blameView.enabled": false
+    "githd.blameView.enabled": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "prettier.singleQuote": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.minimap.enabled": false,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.detectIndentation": true,
+    "editor.renderWhitespace": "none",
+    "editor.find.seedSearchStringFromSelection": true,
+    "editor.fontSize": 12,
+    "window.openFilesInNewWindow": "off",
+    "editor.scrollBeyondLastLine": true,
+    "editor.tabSize": 2,
+    "files.trimTrailingWhitespace": true
 }

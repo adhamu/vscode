@@ -151,6 +151,11 @@
     },
     {
         "key": "ctrl+alt+d",
-        "command": "githd.diffUncommittedFile"
+        "command": "git.openChange"
+    },
+    {
+        "key": "ctrl+cmd+down",
+        "command": "-workbench.action.terminal.resizePaneDown",
+        "when": "terminalFocus"
     }
 ]

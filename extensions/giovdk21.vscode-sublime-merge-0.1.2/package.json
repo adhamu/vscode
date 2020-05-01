@@ -1,0 +1,145 @@
+{
+	"name": "vscode-sublime-merge",
+	"displayName": "Sublime Merge for VSCode",
+	"description": "Open repository, file history, blame, etc.",
+	"version": "0.1.2",
+	"license": "MIT",
+	"author": {
+		"name": "Giovanni Derks"
+	},
+	"publisher": "giovdk21",
+	"homepage": "https://github.com/giovdk21/vscode-sublime-merge",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/giovdk21/vscode-sublime-merge.git"
+	},
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.38.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"sublime merge",
+		"git",
+		"blame",
+		"log",
+		"history"
+	],
+	"extensionDependencies": [
+		"vscode.git"
+	],
+	"activationEvents": [
+		"workspaceContains:.git"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "vscsm.openInSublimeMerge",
+				"title": "Open repository in Sublime Merge"
+			},
+			{
+				"command": "vscsm.blameInSublimeMerge",
+				"title": "Blame in Sublime Merge"
+			},
+			{
+				"command": "vscsm.fileHistoryInSublimeMerge",
+				"title": "File history in Sublime Merge"
+			},
+			{
+				"command": "vscsm.lineHistoryInSublimeMerge",
+				"title": "Line history in Sublime Merge"
+			},
+			{
+				"command": "vscsm.myCommitsInSublimeMerge",
+				"title": "Show my commits in Sublime Merge"
+			}
+		],
+		"menus": {
+			"commandPalette": [
+				{
+					"command": "vscsm.openInSublimeMerge",
+					"when": "config.git.enabled && gitOpenRepositoryCount != 0"
+				},
+				{
+					"command": "vscsm.blameInSublimeMerge",
+					"when": "config.git.enabled && gitOpenRepositoryCount != 0"
+				},
+				{
+					"command": "vscsm.fileHistoryInSublimeMerge",
+					"when": "config.git.enabled && gitOpenRepositoryCount != 0"
+				},
+				{
+					"command": "vscsm.lineHistoryInSublimeMerge",
+					"when": "config.git.enabled && gitOpenRepositoryCount != 0"
+				},
+				{
+					"command": "vscsm.myCommitsInSublimeMerge",
+					"when": "config.git.enabled && gitOpenRepositoryCount != 0"
+				}
+			],
+			"editor/context": [
+				{
+					"command": "vscsm.fileHistoryInSublimeMerge",
+					"when": "!editorHasSelection && config.git.enabled && gitOpenRepositoryCount != 0",
+					"group": "vscode_sublmerge"
+				},
+				{
+					"command": "vscsm.myCommitsInSublimeMerge",
+					"when": "!editorHasSelection && config.git.enabled && gitOpenRepositoryCount != 0",
+					"group": "vscode_sublmerge"
+				},
+				{
+					"command": "vscsm.lineHistoryInSublimeMerge",
+					"when": "editorHasSelection && config.git.enabled && gitOpenRepositoryCount != 0",
+					"group": "vscode_sublmerge"
+				},
+				{
+					"command": "vscsm.blameInSublimeMerge",
+					"when": "editorHasSelection && config.git.enabled && gitOpenRepositoryCount != 0",
+					"group": "vscode_sublmerge"
+				}
+			]
+		},
+		"configuration": {
+			"title": "Sublime Merge for VSCode",
+			"properties": {
+				"vscsm.showInStatusBar": {
+					"type": "boolean",
+					"default": true,
+					"description": "Set to false to disable the Sublime Merge for VSCode status bar item"
+				},
+				"vscsm.debug": {
+					"type": "boolean",
+					"default": false,
+					"description": "Set to true to enable debug mode (requires restart)"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.6",
+		"@types/node": "^10.12.21",
+		"@types/vscode": "^1.38.0",
+		"glob": "^7.1.4",
+		"mocha": "^6.2.3",
+		"tslint": "^5.12.1",
+		"typescript": "^3.3.1",
+		"vscode-test": "^1.0.2"
+	},
+	"__metadata": {
+		"id": "d50227e3-7792-4230-8c3b-d92c0c67d4f0",
+		"publisherId": "802ea28b-f3d9-48b1-8382-3b73caa492b8",
+		"publisherDisplayName": "Giovanni Derks"
+	}
+}
