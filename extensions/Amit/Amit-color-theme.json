@@ -1,0 +1,12 @@
+{
+	"tokenColors": "./ArkBright.tmTheme",
+	"colors": {
+		"editor.background": "#1E272C",
+		"editorCursor.foreground": "#528BFF",
+		"editor.foreground": "#DFE2E6",
+		"editorWhitespace.foreground": "#747369",
+		"editor.lineHighlightBackground": "#2B313A",
+		"editor.selectionBackground": "#3D4350"
+	},
+	"name": "ArkBright"
+}

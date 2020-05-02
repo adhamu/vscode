@@ -48,7 +48,6 @@
         "editorWidget.background": "#263238",
         "editorIndentGuide.background": "#333"
     },
-    "workbench.iconTheme": "eq-material-theme-icons",
     "editor.smoothScrolling": true,
     "window.zoomLevel": 0,
     "files.autoSave": "onFocusChange",
