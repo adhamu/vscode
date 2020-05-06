@@ -1,0 +1,28 @@
+{
+	"name": "kaleidoscope",
+	"publisher": "adhamu",
+	"displayName": "Kaleidoscope",
+	"description": "A bright and colourful theme",
+	"repository": "https://github.com/adhamu/kaleidoscope.git",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.44.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "kaleidoscope",
+				"uiTheme": "vs-dark",
+				"path": "./themes/kaleidoscope-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "4d9d7b9b-a899-4497-96fc-ab0a6bb78ffd",
+		"publisherId": "89d7b16f-0474-4f36-a3e8-bb733d41a12c",
+		"publisherDisplayName": "adhamu"
+	}
+}
