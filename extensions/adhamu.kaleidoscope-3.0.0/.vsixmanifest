@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Language="en-US" Id="kaleidoscope" Version="2.4.0" Publisher="adhamu"/>
+    <Identity Language="en-US" Id="kaleidoscope" Version="3.0.0" Publisher="adhamu"/>
     <DisplayName>Kaleidoscope</DisplayName>
     <Description xml:space="preserve">A bright and colourful theme</Description>
     <Tags>theme,color-theme</Tags>
     <Categories>Themes</Categories>
     <GalleryFlags>Public</GalleryFlags>
-    <Badges><Badge Link="https://marketplace.visualstudio.com/items?itemName=adhamu.kaleidoscope" ImgUri="https://img.shields.io/visual-studio-marketplace/v/adhamu.kaleidoscope.svg" Description="Version" /></Badges>
+    <Badges><Badge Link="https://marketplace.visualstudio.com/items?itemName=adhamu.kaleidoscope" ImgUri="https://img.shields.io/visual-studio-marketplace/v/adhamu.kaleidoscope.svg" Description="Version" /><Badge Link="https://marketplace.visualstudio.com/items?itemName=adhamu.kaleidoscope" ImgUri="https://img.shields.io/visual-studio-marketplace/i/adhamu.kaleidoscope.svg" Description="Installs" /><Badge Link="https://marketplace.visualstudio.com/items?itemName=adhamu.kaleidoscope" ImgUri="https://img.shields.io/visual-studio-marketplace/d/adhamu.kaleidoscope.svg" Description="Downloads" /></Badges>
     <Properties>
       <Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.44.0" />
       <Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
