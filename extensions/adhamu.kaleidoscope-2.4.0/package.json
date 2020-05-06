@@ -4,12 +4,23 @@
 	"displayName": "Kaleidoscope",
 	"description": "A bright and colourful theme",
 	"repository": "https://github.com/adhamu/kaleidoscope.git",
-	"version": "2.0.0",
+	"version": "2.4.0",
+	"author": {
+		"name": "adhamu"
+	},
+	"icon": "icon.jpg",
 	"engines": {
 		"vscode": "^1.44.0"
 	},
 	"categories": [
 		"Themes"
+	],
+	"badges": [
+		{
+			"url": "https://img.shields.io/visual-studio-marketplace/v/adhamu.kaleidoscope.svg",
+			"href": "https://marketplace.visualstudio.com/items?itemName=adhamu.kaleidoscope",
+			"description": "Version"
+		}
 	],
 	"contributes": {
 		"themes": [
