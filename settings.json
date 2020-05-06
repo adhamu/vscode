@@ -106,5 +106,8 @@
     "files.exclude": {
         "**/.git": false,
         "**/.gittttt": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
 }
