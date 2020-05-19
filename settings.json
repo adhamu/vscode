@@ -50,7 +50,7 @@
         "editor.background": "#16202B"
     },
     "editor.smoothScrolling": true,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "files.autoSave": "onFocusChange",
     "php.suggest.basic": false,
     "workbench.sideBar.location": "left",
