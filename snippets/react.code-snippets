@@ -1,0 +1,56 @@
+{
+  "React Functional Component (Return Straight Away)": {
+    "prefix": "rfd",
+    "body": [
+      "import React from 'react';",
+      "",
+      "const $1 = ($2) => (",
+      "  <></>",
+      ");",
+      "",
+      "export default $1"
+    ],
+    "description": "New Functional React Component (Return)"
+  },
+	"React Functional Component (curly)": {
+    "prefix": "rfc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "const $1 = ($2) => {",
+      "  $3",
+      "  return (",
+      "      <></>",
+      "  )",
+      "};",
+      "",
+      "export default $1"
+    ],
+    "description": "New Functional React Component (curly)"
+  },
+	"setState Hook": {
+    "prefix": "us",
+    "body": [
+      "const [$1, set$1 = useState($2)"
+    ],
+    "description": "setState Hook"
+  },
+	"useEffect": {
+    "prefix": "ue",
+    "body": [
+      "useEffect(() => {",
+			"    $1",
+			"}, [$2])"
+    ],
+    "description": "useEffect"
+  },
+	"useMemo": {
+    "prefix": "um",
+    "body": [
+      "useMemo(() => {",
+			"    $1",
+			"}, [$2])"
+    ],
+    "description": "useMemo"
+  }
+}

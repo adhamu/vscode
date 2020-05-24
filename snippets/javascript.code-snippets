@@ -1,0 +1,11 @@
+{
+  "function": {
+    "prefix": "func",
+    "body": [
+      "const $1 = ($2) => {",
+			"    $3",
+			"};"
+    ],
+    "description": "function"
+  }
+}
