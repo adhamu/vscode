@@ -5,7 +5,6 @@
     "editor.formatOnPaste": false,
     "explorer.openEditors.visible": 0,
     "editor.fontFamily": "Hack",
-    "editor.cursorStyle": "line",
     "workbench.activityBar.visible": false,
     "workbench.fontAliasing": "default",
     "files.associations": {
@@ -52,14 +51,13 @@
     "editor.smoothScrolling": true,
     "window.zoomLevel": 1,
     "files.autoSave": "onFocusChange",
-    "php.suggest.basic": false,
     "workbench.sideBar.location": "left",
-    "editor.tabCompletion": true,
-    "diffEditor.renderSideBySide": false,
+    "editor.tabCompletion": "on",
     "extensions.ignoreRecommendations": false,
     "editor.wordWrap": "on",
     "json.format.enable": false,
-    "editor.autoIndent": false,"auto-close-tag.activationOnLanguage": [
+    "editor.autoIndent": "none",
+    "auto-close-tag.activationOnLanguage": [
         "xml",
         "php",
         "blade",
@@ -97,7 +95,6 @@
     "editor.minimap.enabled": false,
     "editor.acceptSuggestionOnEnter": "on",
     "editor.detectIndentation": true,
-    "editor.renderWhitespace": "none",
     "editor.find.seedSearchStringFromSelection": true,
     "editor.fontSize": 12,
     "window.openFilesInNewWindow": "off",
@@ -110,5 +107,8 @@
     },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "editor.renderWhitespace": "none",
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": true
 }
