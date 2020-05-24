@@ -110,5 +110,6 @@
     },
     "editor.renderWhitespace": "none",
     "editor.cursorBlinking": "phase",
-    "editor.cursorSmoothCaretAnimation": true
+    "editor.cursorSmoothCaretAnimation": true,
+    "workbench.iconTheme": "material-icon-theme"
 }
