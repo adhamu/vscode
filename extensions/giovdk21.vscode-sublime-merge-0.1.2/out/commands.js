@@ -59,6 +59,8 @@ exports.registerCommands = registerCommands;
 function runSublimeMerge(args, currentDocumentURI) {
     if (currentDocumentURI.scheme === 'file') {
         const path = getWorkspaceFolderPath(currentDocumentURI);
+        console.log(path);
+
         if (!path) {
             return null;
         }
@@ -67,6 +69,8 @@ function runSublimeMerge(args, currentDocumentURI) {
 }
 function getWorkspaceFolderPath(currentDocumentURI) {
     const folder = vscode.workspace.getWorkspaceFolder(currentDocumentURI);
+    console.log(folder);
+
     if (!folder) {
         return null;
     }

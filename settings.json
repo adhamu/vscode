@@ -49,14 +49,13 @@
         "editor.background": "#16202B"
     },
     "editor.smoothScrolling": true,
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "files.autoSave": "onFocusChange",
     "workbench.sideBar.location": "left",
     "editor.tabCompletion": "on",
     "extensions.ignoreRecommendations": false,
     "editor.wordWrap": "on",
     "json.format.enable": false,
-    "editor.autoIndent": "none",
     "auto-close-tag.activationOnLanguage": [
         "xml",
         "php",
@@ -111,5 +110,6 @@
     "editor.renderWhitespace": "none",
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": true,
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "python.jediEnabled": false
 }
