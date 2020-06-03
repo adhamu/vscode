@@ -14,7 +14,8 @@
         ".vimrc": "shellscript",
         ".extras": "shellscript",
         ".aliases": "shellscript",
-        "*.json": "jsonc"
+        "*.json": "jsonc",
+        "*.html": "html"
     },
     "workbench.colorCustomizations": {
         "activityBarBadge.background": "#2979FF",
@@ -111,5 +112,8 @@
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": true,
     "workbench.iconTheme": "material-icon-theme",
-    "python.jediEnabled": false
+    "python.jediEnabled": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    }
 }
