@@ -115,5 +115,6 @@
     "python.jediEnabled": false,
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
-    }
+    },
+    "diffEditor.ignoreTrimWhitespace": false
 }
