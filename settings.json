@@ -116,5 +116,8 @@
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false
 }
