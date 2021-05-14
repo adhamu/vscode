@@ -1,5 +1,5 @@
 #!/bin/bash
-brew cask install vscodium
+#§brew cask install vscodium
 
 APPLICATION_SUPPORT="${HOME}/Library/Application Support/VSCodium/User"
 
