@@ -2,9 +2,9 @@
   "React Functional Component (Return Straight Away)": {
     "prefix": "rfd",
     "body": [
-      "import React from 'react';",
+      "import * as React from 'react';",
       "",
-      "const $1 = ($2) => (",
+      "const $1 = ($2): JSX.Element => (",
       "  <></>",
       ");",
       "",
@@ -15,9 +15,9 @@
 	"React Functional Component (curly)": {
     "prefix": "rfc",
     "body": [
-      "import React from 'react';",
+      "import * as React from 'react';",
       "",
-      "const $1 = ($2) => {",
+      "const $1 = ($2): JSX.Element => {",
       "  $3",
       "  return (",
       "      <></>",
