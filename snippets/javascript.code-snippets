@@ -1,11 +1,12 @@
 {
-  "function": {
+  "arrowFunction": {
     "prefix": "func",
-    "body": [
-      "const $1 = ($2) => {",
-			"    $3",
-			"};"
-    ],
+    "body": ["const $1 = ($2) => {", "    $3", "}"],
+    "description": "function"
+  },
+  "arrowFunctionReturn": {
+    "prefix": "funcr",
+    "body": ["const $1 = ($2) => ($3)"],
     "description": "function"
   }
 }

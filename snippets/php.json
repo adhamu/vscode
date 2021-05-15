@@ -1,52 +1,27 @@
 {
-    "Public Method": {
-        "prefix": "pub",
-        "body": [
-            "public function $1()",
-            "{",
-            "    $2",
-            "}"
-        ],
-        "description": "New Public Method"
-    },
-    "Protected Method": {
-        "prefix": "pro",
-        "body": [
-            "protected function $1()",
-            "{",
-            "    $2",
-            "}"
-        ],
-        "description": "New Protected Method"
-    },
-    "Private Method": {
-        "prefix": "pri",
-        "body": [
-            "private function $1()",
-            "{",
-            "    $2",
-            "}"
-        ],
-        "description": "New Private Method"
-    },
-    "Constructor": {
-        "prefix": "con",
-        "body": [
-            "public function __construct()",
-            "{",
-            "    $1",
-            "}"
-        ],
-        "description": "New Constructor"
-    },
-    "New Class": {
-        "prefix": "cl",
-        "body": [
-            "class $1",
-            "{",
-            "    $2",
-            "}"
-        ],
-        "description": "New Class"
-    }
+  "Public Method": {
+    "prefix": "pub",
+    "body": ["public function $1()", "{", "    $2", "}"],
+    "description": "New Public Method"
+  },
+  "Protected Method": {
+    "prefix": "pro",
+    "body": ["protected function $1()", "{", "    $2", "}"],
+    "description": "New Protected Method"
+  },
+  "Private Method": {
+    "prefix": "pri",
+    "body": ["private function $1()", "{", "    $2", "}"],
+    "description": "New Private Method"
+  },
+  "Constructor": {
+    "prefix": "con",
+    "body": ["public function __construct()", "{", "    $1", "}"],
+    "description": "New Constructor"
+  },
+  "New Class": {
+    "prefix": "cl",
+    "body": ["class $1", "{", "    $2", "}"],
+    "description": "New Class"
+  }
 }

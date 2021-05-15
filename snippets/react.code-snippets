@@ -2,55 +2,45 @@
   "React Functional Component (Return Straight Away)": {
     "prefix": "rfd",
     "body": [
-      "import * as React from 'react';",
+      "import * as React from 'react'",
       "",
       "const $1 = ($2): JSX.Element => (",
       "  <></>",
-      ");",
+      ")",
       "",
       "export default $1"
     ],
     "description": "New Functional React Component (Return)"
   },
-	"React Functional Component (curly)": {
+  "React Functional Component (curly)": {
     "prefix": "rfc",
     "body": [
-      "import * as React from 'react';",
+      "import * as React from 'react'",
       "",
       "const $1 = ($2): JSX.Element => {",
       "  $3",
       "  return (",
       "      <></>",
       "  )",
-      "};",
+      "}",
       "",
       "export default $1"
     ],
     "description": "New Functional React Component (curly)"
   },
-	"setState Hook": {
+  "setState Hook": {
     "prefix": "us",
-    "body": [
-      "const [$1, set$1 = useState($2)"
-    ],
+    "body": ["const [$1, set${1/(.*)/${1:/capitalize}/}] = useState($2)"],
     "description": "setState Hook"
   },
-	"useEffect": {
+  "useEffect": {
     "prefix": "ue",
-    "body": [
-      "useEffect(() => {",
-			"    $1",
-			"}, [$2])"
-    ],
+    "body": ["useEffect(() => {", "    $1", "}, [$2])"],
     "description": "useEffect"
   },
-	"useMemo": {
+  "useMemo": {
     "prefix": "um",
-    "body": [
-      "useMemo(() => {",
-			"    $1",
-			"}, [$2])"
-    ],
+    "body": ["useMemo(() => {", "    $1", "}, [$2])"],
     "description": "useMemo"
   }
 }

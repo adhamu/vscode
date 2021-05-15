@@ -1,0 +1,12 @@
+{
+  "describeEach": {
+    "prefix": "deach",
+    "body": ["describe.each([", "[$1],", "])('$2', ($3) => {", "$4", "})"],
+    "description": "describe.each"
+  },
+  "itEach": {
+    "prefix": "ieach",
+    "body": ["it.each([", "[$1],", "])('$2', ($3) => {", "$4", "})"],
+    "description": "function"
+  }
+}
