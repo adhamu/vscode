@@ -14,7 +14,8 @@
         ".extras": "shellscript",
         ".aliases": "shellscript",
         "*.json": "jsonc",
-        "*.html": "html"
+        "*.html": "html",
+        "*.mdx": "mdx"
     },
     "workbench.colorCustomizations": {
         "activityBarBadge.background": "#2979FF",
@@ -77,7 +78,7 @@
     ],
     "workbench.colorTheme": "kaleidoscope",
     "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "workbench.startupEditor": "newUntitledFile",
     "[javascriptreact]": {
@@ -140,5 +141,9 @@
     },
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "material-icon-theme.folders.theme": "specific",
+    "workbench.enableExperiments": false,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "typescript.disableAutomaticTypeAcquisition": true
 }
