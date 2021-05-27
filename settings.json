@@ -15,7 +15,7 @@
     ".aliases": "shellscript",
     "*.json": "jsonc",
     "*.html": "html",
-    "*.mdx": "mdx"
+    "*.mdx": "markdown"
   },
   "workbench.colorCustomizations": {
     "activityBarBadge.background": "#2979FF",
@@ -145,5 +145,6 @@
   "material-icon-theme.folders.theme": "specific",
   "workbench.enableExperiments": false,
   "workbench.settings.enableNaturalLanguageSearch": false,
-  "typescript.disableAutomaticTypeAcquisition": true
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "prettier.enableDebugLogs": true
 }
