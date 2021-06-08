@@ -78,7 +78,7 @@
   ],
   "workbench.colorTheme": "kaleidoscope",
   "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.startupEditor": "newUntitledFile",
   "[javascriptreact]": {
@@ -121,7 +121,6 @@
   "explorer.confirmDragAndDrop": false,
   "prettier.semi": false,
   "prettier.arrowParens": "avoid",
-  "eslint.format.enable": true,
   "eslint.debug": true,
   "eslint.lintTask.enable": true,
   "eslint.nodePath": "/Users/ADhamu/.nvm/versions/node/v12.16.1/bin/node",
@@ -146,5 +145,6 @@
   "workbench.enableExperiments": false,
   "workbench.settings.enableNaturalLanguageSearch": false,
   "typescript.disableAutomaticTypeAcquisition": true,
-  "prettier.enableDebugLogs": true
+  "prettier.enableDebugLogs": true,
+  "php.executablePath": "/usr/bin/php"
 }
