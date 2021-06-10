@@ -177,5 +177,9 @@
 	"dependencies": {
 		"vscode-languageclient": "3.5.1"
 	},
-	"__metadata": {}
+	"__metadata": {
+		"id": "25e38b8d-ff51-4c34-af36-b7b7961cf666",
+		"publisherDisplayName": "Alexander Krechik",
+		"publisherId": "90ae8169-db91-4c03-9486-a44796598af0"
+	}
 }

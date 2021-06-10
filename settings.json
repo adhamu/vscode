@@ -146,5 +146,6 @@
   "workbench.settings.enableNaturalLanguageSearch": false,
   "typescript.disableAutomaticTypeAcquisition": true,
   "prettier.enableDebugLogs": true,
-  "php.executablePath": "/usr/bin/php"
+  "php.executablePath": "/usr/bin/php",
+  "stylelint.packageManager": "yarn"
 }
