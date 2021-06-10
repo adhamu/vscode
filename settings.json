@@ -15,7 +15,8 @@
     ".aliases": "shellscript",
     "*.json": "jsonc",
     "*.html": "html",
-    "*.mdx": "markdown"
+    "*.mdx": "markdown",
+    "*.vim": "shellscript"
   },
   "workbench.colorCustomizations": {
     "activityBarBadge.background": "#2979FF",
