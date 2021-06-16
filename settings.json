@@ -148,5 +148,8 @@
   "typescript.disableAutomaticTypeAcquisition": true,
   "prettier.enableDebugLogs": true,
   "php.executablePath": "/usr/bin/php",
-  "stylelint.packageManager": "yarn"
+  "stylelint.packageManager": "yarn",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  }
 }
